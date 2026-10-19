@@ -1,0 +1,35 @@
+parent parent : grandfather, grandmother
+parent sibling : uncle, aunt
+parent spouse : stepfather, stepmother
+parent child : half-brother, half-sister
+sibling spouse : brother-in-law, sister-in-law
+sibling child : nephew, niece
+spouse parent : father-in-law, mother-in-law
+spouse sibling : brother-in-law, sister-in-law
+spouse child : stepson, stepdaughter
+child parent : co-father, co-mother
+child spouse : son-in-law, daughter-in-law
+child child : grandson, granddaughter
+parent parent parent : great-grandfather, great-grandmother
+parent parent sibling : great-uncle, great-aunt
+parent parent spouse : step-grandfather, step-grandmother
+parent parent child : half-uncle, half-aunt
+parent sibling spouse : uncle, aunt
+parent sibling child : first cousin, first cousin
+parent spouse parent : step-grandfather, step-grandmother
+parent spouse child : stepbrother, stepsister
+parent child spouse : half-brother-in-law, half-sister-in-law
+parent child child : half-nephew, half-niece
+sibling spouse child : stepnephew, stepniece
+sibling child spouse : nephew-in-law, niece-in-law
+sibling child child : grandnephew, grandniece
+spouse parent parent : grandfather-in-law, grandmother-in-law
+spouse parent sibling : uncle-in-law, aunt-in-law
+spouse parent child : half-brother-in-law, half-sister-in-law
+spouse sibling spouse : brother-in-law, sister-in-law
+spouse sibling child : nephew, niece
+spouse child spouse : stepson-in-law, stepdaughter-in-law
+spouse child child : step-grandson, step-granddaughter
+child spouse child : step-grandson, step-granddaughter
+child child spouse : grandson-in-law, granddaughter-in-law
+child child child : great-grandson, great-granddaughter
