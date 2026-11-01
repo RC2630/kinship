@@ -230,7 +230,7 @@ def find_all_distinct_families() -> list[set[Person]]:
     result: list[set[Person]] = []
     people: set[Person] = set(PEOPLE.values())
     while len(people) > 0:
-        arbitrary_person: Person = next(iter(people))
+        arbitrary_person: Person = people.pop()
         family: set[Person] = find_all_family_members(arbitrary_person)
         result.append(family)
         people.difference_update(family)
